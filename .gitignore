@@ -1,0 +1,145 @@
+# Dependencies
+node_modules/
+venv/
+env/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+*.env
+.env.*
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.c9/
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+pip-log.txt
+
+# Database files
+*.sqlite3
+*.db
+*.sqlite
+scorecard.db
+
+# Frontend specific
+/frontend/node_modules
+/frontend/build
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/coverage
+/frontend/.env
+
+# Backend specific
+/backend/__pycache__
+/backend/*.pyc
+/backend/venv
+/backend/.env
+/backend/*.db
+
+# Electron specific
+/frontend/release/
+/frontend/out/
+*.asar
+
+# Package files
+*.dmg
+*.app
+*.exe
+*.msi
+*.deb
+*.rpm
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Python virtual environments
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python cache
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Unit test / coverage reports
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Dropbox files
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# Misc
+*.orig
+*.rej
